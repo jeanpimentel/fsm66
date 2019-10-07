@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FSM66" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\FSM66" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-ansi" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\FSM66" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="teste.por" />
+				<Compiler>
+					<Add option="-ansi" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="arvore_sintaxe_abstrata.cpp" />
+		<Unit filename="arvore_sintaxe_abstrata.h" />
+		<Unit filename="canonizador.cpp" />
+		<Unit filename="canonizador.h" />
+		<Unit filename="erro.cpp" />
+		<Unit filename="erro.h" />
+		<Unit filename="gerador.cpp" />
+		<Unit filename="gerador.h" />
+		<Unit filename="gerador_ri.cpp" />
+		<Unit filename="gerador_ri.h" />
+		<Unit filename="lexico.cpp" />
+		<Unit filename="lexico.h" />
+		<Unit filename="linearizador.cpp" />
+		<Unit filename="linearizador.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="representacao_intermediaria.cpp" />
+		<Unit filename="representacao_intermediaria.h" />
+		<Unit filename="semantico.cpp" />
+		<Unit filename="semantico.h" />
+		<Unit filename="semantico_escopo.cpp" />
+		<Unit filename="semantico_escopo.h" />
+		<Unit filename="semantico_tipo.cpp" />
+		<Unit filename="semantico_tipo.h" />
+		<Unit filename="semantico_variavel.cpp" />
+		<Unit filename="semantico_variavel.h" />
+		<Unit filename="simbolos.h" />
+		<Unit filename="sintatico.cpp" />
+		<Unit filename="sintatico.h" />
+		<Unit filename="tabela_simbolos.cpp" />
+		<Unit filename="tabela_simbolos.h" />
+		<Unit filename="teste.por" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
